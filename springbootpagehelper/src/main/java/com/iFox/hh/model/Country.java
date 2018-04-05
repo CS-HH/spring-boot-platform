@@ -1,19 +1,11 @@
 package com.iFox.hh.model;
 
-public class Country {
-    private Integer id;
+public class Country extends BaseEntity {
 
     private String countryname;
 
     private String countrycode;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getCountryname() {
         return countryname;

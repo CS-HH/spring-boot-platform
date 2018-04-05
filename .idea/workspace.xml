@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fccfba97-3acc-4c53-9611-1397e22aa8ff" name="Default" comment="" />
+    <list default="true" id="fccfba97-3acc-4c53-9611-1397e22aa8ff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/CityExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/CountryExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfoExample.java" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springbootpagehelper/target/" />
@@ -14,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,11 +45,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CityMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="48">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Country.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,6 +136,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -76,6 +149,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java" />
       </list>
     </option>
   </component>
@@ -97,6 +176,9 @@
     <option name="y" value="9" />
     <option name="width" value="586" />
     <option name="height" value="587" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -165,42 +247,6 @@
               <item name="hh" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootpagehelper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hh" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootpagehelper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootpagehelper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootpagehelper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -220,6 +266,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springbootpagehelper" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.iFox.hh.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\springbootArch\springbootpagehelper\src\main\resources" />
     </key>
@@ -356,12 +405,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522926134642</updated>
-      <workItem from="1522926139225" duration="334000" />
+      <workItem from="1522926139225" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334000" />
+    <option name="totallyTimeSpent" value="760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -375,8 +424,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -442,10 +491,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/CityExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5011">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>

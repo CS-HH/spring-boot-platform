@@ -1,7 +1,7 @@
 package com.iFox.hh.model;
 
-public class UserInfo {
-    private Integer id;
+public class UserInfo extends BaseEntity{
+
 
     private String username;
 
@@ -19,13 +19,6 @@ public class UserInfo {
 
     private String tel;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;

@@ -1,19 +1,11 @@
 package com.iFox.hh.model;
 
-public class City {
-    private Integer id;
+public class City extends BaseEntity {
 
     private String name;
 
     private String state;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
