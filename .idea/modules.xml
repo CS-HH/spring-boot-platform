@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springbootArch.iml" filepath="$PROJECT_DIR$/springbootArch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootpagehelper/springbootpagehelper.iml" filepath="$PROJECT_DIR$/springbootpagehelper/springbootpagehelper.iml" />
+    </modules>
+  </component>
+</project>
