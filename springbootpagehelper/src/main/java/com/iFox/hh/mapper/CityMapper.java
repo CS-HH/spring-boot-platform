@@ -1,5 +1,8 @@
 package com.iFox.hh.mapper;
 
-public interface CityMapper {
+import com.iFox.hh.common.MyMapper;
+import com.iFox.hh.model.City;
+
+public interface CityMapper extends MyMapper<City> {
 
 }

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springbootArch.iml" filepath="$PROJECT_DIR$/springbootArch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootpagehelper/springbootpagehelper.iml" filepath="$PROJECT_DIR$/springbootpagehelper/springbootpagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootutility/springbootutility.iml" filepath="$PROJECT_DIR$/springbootutility/springbootutility.iml" />
     </modules>
   </component>
 </project>

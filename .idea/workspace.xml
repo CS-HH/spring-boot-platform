@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fccfba97-3acc-4c53-9611-1397e22aa8ff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/springbootArch.iml" afterPath="$PROJECT_DIR$/springbootArch.iml" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/pom.xml" afterPath="$PROJECT_DIR$/springbootpagehelper/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/springbootpagehelper/springbootpagehelper.iml" afterPath="$PROJECT_DIR$/springbootpagehelper/springbootpagehelper.iml" />
       <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java" />
       <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java" />
       <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java" />
-      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java" />
-      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/CityExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java" />
-      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/CountryExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java" afterPath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java" />
-      <change beforePath="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfoExample.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springbootpagehelper/target/" />
+    <ignored path="$PROJECT_DIR$/springbootutility/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,31 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="CityMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/resources/generator/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -58,9 +52,11 @@
       <file leaf-file-name="CountryMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="80">
+              <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +65,41 @@
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootutility/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springbootutility/src/main/java/com/iFox/hh/common/MyMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -79,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,33 +138,25 @@
         <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="797">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mybatis</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,11 +169,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/City.java" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootutility/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootutility/src/main/java/com/iFox/hh/mymapper/MyMapper.java" />
+        <option value="$PROJECT_DIR$/springbootutility/src/main/java/com/iFox/hh/common/MyMapper.java" />
+        <option value="$PROJECT_DIR$/springbootpagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java" />
         <option value="$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java" />
@@ -165,6 +191,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -247,6 +278,41 @@
               <item name="hh" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootutility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootutility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootutility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootutility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootArch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootArch" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootutility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -405,12 +471,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522926134642</updated>
-      <workItem from="1522926139225" duration="760000" />
+      <workItem from="1522926139225" duration="3061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="760000" />
+    <option name="totallyTimeSpent" value="3061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -459,22 +525,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootpagehelper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -527,7 +577,7 @@
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/Country.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -535,32 +585,72 @@
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/model/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="797">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootutility/src/main/java/com/iFox/hh/common/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootpagehelper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springbootutility/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/CountryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="80">
+          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springbootpagehelper/src/main/java/com/iFox/hh/mapper/UserInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
