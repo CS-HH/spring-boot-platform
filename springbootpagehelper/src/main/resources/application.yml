@@ -24,6 +24,10 @@ spring:
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
 
+    thymeleaf:
+        prefix: classpath:/templates/
+        suffix: .html
+
 #配置mybatis的mapper.xml文件位置
 mybatis:
   mapper-locations: classpath:mapping/*.xml
@@ -35,3 +39,5 @@ pagehelper:
     reasonable: true
     supportMethodsArguments: true
     params: count=countSql
+
+#配置返回页面信息
