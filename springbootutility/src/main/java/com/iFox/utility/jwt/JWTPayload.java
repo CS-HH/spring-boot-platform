@@ -1,4 +1,4 @@
-package com.iFox.hh.jwt.jwt;
+package com.iFox.utility.jwt;
 
 import java.util.Date;
 
@@ -33,6 +33,17 @@ public class JWTPayload {
      * 当前token的唯一标识, 使用UUID
      */
     private String jti;
+    /**
+     * 接收方 Audience
+
+     */
+    private String[] aud;
+
+    /**
+     * 面向的用户 Subject
+     */
+    private String sub;
+
 
     public String getIss() {
         return iss;
@@ -89,17 +100,6 @@ public class JWTPayload {
     public void setSub(String sub) {
         this.sub = sub;
     }
-
-    /**
-     * 接收方 Audience
-
-     */
-    private String[] aud;
-
-    /**
-     * 面向的用户 Subject
-     */
-    private String sub;
 
 
 

@@ -1,4 +1,4 @@
-package com.iFox.hh.mapper;
+package com.iFox.utility.mapper;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;

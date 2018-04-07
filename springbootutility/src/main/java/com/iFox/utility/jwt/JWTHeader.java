@@ -1,9 +1,10 @@
-package com.iFox.hh.jwt.jwt;
+package com.iFox.utility.jwt;
+
 /**
+ * jwt头部
  *@author exphuhong
- *@description jwt头部
- *@param
- *@date 21:24
+ *@since  12:18 2018/4/7
+ *
  */
 public class JWTHeader {
 

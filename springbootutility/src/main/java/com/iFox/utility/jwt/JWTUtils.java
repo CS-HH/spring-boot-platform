@@ -1,4 +1,4 @@
-package com.iFox.hh.jwt.jwt;
+package com.iFox.utility.jwt;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -55,6 +55,8 @@ public class JWTUtils {
         JWTVerifier jwtVerifier = JWT.require(algorithm).build();
         return jwtVerifier.verify(token);
     }
+
+
 
 }
 
