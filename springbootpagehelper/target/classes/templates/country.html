@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>城市编号</td>
+        <td>城市代码</td>
+        <td>城市名称</td>
+    </tr>
+    <tr th:each="country : ${page.list}">
+        <td th:text="${country.id}"></td>
+        <td th:text="${country.countrycode}"></td>
+        <td th:text="${country.countryname}"></td>
+    </tr>
+</table>
+</body>
+</html>

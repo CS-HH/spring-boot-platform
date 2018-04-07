@@ -25,7 +25,7 @@ public class CountryController extends BaseController {
     public ModelAndView getAll(Country country) {
         List<Country> countryList = countryService.getAll(country);
         PageInfo<Country> pageInfo = new PageInfo<>(countryList);
-        ModelAndView modelAndView = new ModelAndView("index");
+        ModelAndView modelAndView = new ModelAndView("country");
         modelAndView.addObject("page", pageInfo);
         return modelAndView;
     }
