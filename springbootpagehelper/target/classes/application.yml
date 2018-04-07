@@ -23,7 +23,7 @@ spring:
         testOnReturn: false
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
-
+#配置返回页面信息
     thymeleaf:
         prefix: classpath:/templates/
         suffix: .html
@@ -31,7 +31,7 @@ spring:
 #配置mybatis的mapper.xml文件位置
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.iFox.utility.model
+  type-aliases-package: com.iFox.hh.model
 
 #pagehelper分页插件
 pagehelper:
@@ -40,4 +40,4 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
 
-#配置返回页面信息
+

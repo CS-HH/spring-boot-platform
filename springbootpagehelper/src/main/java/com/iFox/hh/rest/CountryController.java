@@ -15,12 +15,13 @@ import java.util.List;
  * @since 19:30 2018/4/6
  */
 @Controller
-public class CountryController {
+@RequestMapping("country")
+public class CountryController extends BaseController {
 
     @Autowired
     private CountryService countryService;
 
-    @RequestMapping("/")
+    @RequestMapping("/getAll")
     public ModelAndView getAll(Country country) {
         List<Country> countryList = countryService.getAll(country);
         PageInfo<Country> pageInfo = new PageInfo<>(countryList);
