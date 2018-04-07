@@ -19,6 +19,12 @@
         <td th:text="${country.countrycode}"></td>
         <td th:text="${country.countryname}"></td>
     </tr>
+    <tr>
+            <a th:href="@{/country/getAll(page=${page.nextPage})}" th:if="${page.hasNextPage}">下一页</a>
+            <a th:href="@{/country/getAll(page=${page.prePage})}" th:if="${page.hasPreviousPage}">上一页</a>
+            <a th:href="@{/country/getAll(page=1)}" th:if="${!page.isFirstPage}">首页</a>
+            <a th:href="@{/country/getAll(page=${page.pages})}" th:if="${!page.isLastPage}">末页</a>
+    </tr>
 </table>
 </body>
 </html>
