@@ -24,6 +24,11 @@ public class CountryService {
         if (country.getPage() != null && country.getRows() != null) {
             PageHelper.startPage(country.getPage(), country.getRows());
         }
+        if (country.getKeyWords() != null && !country.getKeyWords().equals("")) {
+            return countryMapper.selectByKeyWords(country.getKeyWords());
+        }
         return countryMapper.selectAll();
     }
+
+
 }

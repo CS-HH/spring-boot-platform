@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
+<form action="/country/getAll" method="post">
+    <input type="text" name="keyWords"/>
+    <input type="submit" value="submit"/>
+</form>
 <table>
     <tr>
         <td>城市编号</td>
@@ -20,10 +24,11 @@
         <td th:text="${country.countryname}"></td>
     </tr>
     <tr>
-            <a th:href="@{/country/getAll(page=${page.nextPage})}" th:if="${page.hasNextPage}">下一页</a>
-            <a th:href="@{/country/getAll(page=${page.prePage})}" th:if="${page.hasPreviousPage}">上一页</a>
-            <a th:href="@{/country/getAll(page=1)}" th:if="${!page.isFirstPage}">首页</a>
-            <a th:href="@{/country/getAll(page=${page.pages})}" th:if="${!page.isLastPage}">末页</a>
+            <a th:href="@{/country/getAll(page=${page.nextPage},keyWords=${keyWords})}" th:if="${page.hasNextPage}">下一页</a>
+            <a th:href="@{/country/getAll(page=${page.prePage},keyWords=${keyWords})}" th:if="${page.hasPreviousPage}">上一页</a>
+            <a th:href="@{/country/getAll(page=1,keyWords=${keyWords})}" th:if="${!page.isFirstPage}">首页</a>
+            <a th:href="@{/country/getAll(page=${page.pages},keyWords=${keyWords})}" th:if="${!page.isLastPage}">末页</a>
+            总共：<a th:text="${page.pages}"></a>
     </tr>
 </table>
 </body>

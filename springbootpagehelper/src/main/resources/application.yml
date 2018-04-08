@@ -30,7 +30,7 @@ spring:
 
 #配置mybatis的mapper.xml文件位置
 mybatis:
-  mapper-locations: classpath:mapping/*.xml
+  mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.iFox.hh.model
 
 #pagehelper分页插件
