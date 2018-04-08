@@ -8,6 +8,7 @@ package com.iFox.utility.jwt;
  */
 public class JWTHeader {
 
+
     private String alg = "HS256";
 
     public String getAlg() {
