@@ -21,6 +21,17 @@ public class BaseEntity {
     @Transient
     private Integer rows = 10;
 
+    @Transient
+    private String keyWords;
+
+    public String getKeyWords() {
+        return keyWords;
+    }
+
+    public void setKeyWords(String keyWords) {
+        this.keyWords = keyWords;
+    }
+
     public Integer getId() {
         return id;
     }

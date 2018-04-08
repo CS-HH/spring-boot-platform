@@ -1,15 +1,16 @@
 package com.iFox.hh.rest;
 
 import com.github.pagehelper.PageInfo;
-import com.iFox.hh.service.CountryService;
 import com.iFox.hh.model.Country;
+import com.iFox.hh.service.CountryService;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * @author exphuhong
@@ -19,6 +20,7 @@ import java.util.List;
 @RequestMapping("country")
 public class CountryController extends BaseController {
 
+    private Logger logger = (Logger) LoggerFactory.getLogger(getClass());
     @Autowired
     private CountryService countryService;
 
