@@ -56,8 +56,15 @@ public class CountryController extends BaseController {
 
         Map<String, Object> data = new HashMap<>();
 
-        data.put("pages", pageInfo.getPages());
-        data.put("columns", pageInfo.getList());
+        /**
+         *
+         * 分页总数的key不是pages也不是total而是num
+         * */
+        data.put("total", pageInfo.getTotal());
+        data.put("rows", pageInfo.getList());
+        data.put("num", pageInfo.getPages());
+        logger.info("当前页数"+pageInfo.getPageNum());
+        logger.info("总共页数"+pageInfo.getPages());
         return data;
     }
 }
