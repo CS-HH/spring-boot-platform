@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fileserivce" />
         <module name="springbootpagehelper" />
         <module name="springbootutility" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fileserivce" target="1.7" />
       <module name="springbootArch" target="1.7" />
       <module name="springbootpagehelper" target="1.7" />
       <module name="springbootutility" target="1.7" />

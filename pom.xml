@@ -11,6 +11,7 @@
     <modules>
         <module>springbootpagehelper</module>
         <module>springbootutility</module>
+        <module>fileserivce</module>
     </modules>
 
 
