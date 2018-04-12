@@ -9,6 +9,7 @@
         <module name="fileserivce" />
         <module name="springbootpagehelper" />
         <module name="springbootutility" />
+        <module name="springbootweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="springbootArch" target="1.7" />
       <module name="springbootpagehelper" target="1.7" />
       <module name="springbootutility" target="1.7" />
+      <module name="springbootweb" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
