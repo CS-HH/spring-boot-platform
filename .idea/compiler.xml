@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fileserivce" target="1.7" />
-      <module name="springbootArch" target="1.7" />
-      <module name="springbootpagehelper" target="1.7" />
-      <module name="springbootutility" target="1.7" />
-      <module name="springbootweb" target="1.7" />
+      <module name="fileserivce" target="1.8" />
+      <module name="springbootArch" target="1.8" />
+      <module name="springbootpagehelper" target="1.8" />
+      <module name="springbootutility" target="1.8" />
+      <module name="springbootweb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
