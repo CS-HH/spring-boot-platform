@@ -2,24 +2,15 @@ package com.iFox.hh.realm;
 
 import com.iFox.hh.model.User;
 import com.iFox.hh.service.UserService;
-import com.iFox.utility.jwt.JWTHeader;
-import com.iFox.utility.jwt.JWTPayload;
-import com.iFox.utility.jwt.JWTUtils;
-import com.iFox.utility.sysConstant.Constant;
-import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.realm.AuthorizingRealm;
-import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.util.Date;
-import java.util.UUID;
 
 /**
  * shiro Realm继承AuthorizingRealm
