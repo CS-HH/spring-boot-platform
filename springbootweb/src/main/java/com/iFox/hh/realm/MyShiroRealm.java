@@ -1,13 +1,25 @@
 package com.iFox.hh.realm;
 
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
+import com.iFox.hh.model.User;
+import com.iFox.hh.service.UserService;
+import com.iFox.utility.jwt.JWTHeader;
+import com.iFox.utility.jwt.JWTPayload;
+import com.iFox.utility.jwt.JWTUtils;
+import com.iFox.utility.sysConstant.Constant;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.Date;
+import java.util.UUID;
 
 /**
  * shiro Realm继承AuthorizingRealm
@@ -17,21 +29,40 @@ import org.slf4j.LoggerFactory;
  */
 public class MyShiroRealm extends AuthorizingRealm {
 
+    @Autowired
+    private UserService userService;
 
     private Logger logger = LoggerFactory.getLogger(MyShiroRealm.class);
 
+    //授权
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         return null;
     }
 
+    //认证
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         logger.info("MyShiroRealm.doGetAuthenticationInfo()");
         //获取用户输的账号
         String username = (String) authenticationToken.getPrincipal();
         logger.info("用户输入的账号：" + username);
+        User user = userService.selectByUserName(username);
+        if (user==null) throw new UnknownAccountException();
+        if (user.getEnable() == 0) {
+            throw new LockedAccountException();
+        }
+        ByteSource salt = ByteSource.Util.bytes(username);
+        SimpleHash sh = new SimpleHash("MD5", user.getPassword(), salt,1024);
+        String realmName = this.getName();
+        SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(username, sh, salt, realmName);
+        /**
+         * shiro自带的会话管理器
+         Session session = SecurityUtils.getSubject().getSession();
+         session.setAttribute("userSession", user);
+         session.setAttribute("userSessionId", user.getId());
+         * */
 
-        return null;
+        return info;
     }
 }

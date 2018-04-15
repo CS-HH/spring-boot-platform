@@ -1,6 +1,5 @@
 package com.iFox.hh.service.impl;
 
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.iFox.hh.mapper.UserMapper;
 import com.iFox.hh.model.User;
 import com.iFox.hh.service.UserService;
@@ -18,8 +17,11 @@ public class UserServiceImpl extends BaseService<User> implements UserService {
 
 
     public List<User> selectByExample(String userName) {
-        return userMapper.selectList(
-                new EntityWrapper<>().eq("")
-        );
+        return null;
+    }
+
+    @Override
+    public User selectByUserName(String username) {
+        return userMapper.selectByUserName(username);
     }
 }

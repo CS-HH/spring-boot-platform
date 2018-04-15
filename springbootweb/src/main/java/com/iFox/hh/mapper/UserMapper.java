@@ -2,6 +2,7 @@ package com.iFox.hh.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.iFox.hh.model.User;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * 继承BaseMapper实现mybatis-plus
@@ -12,4 +13,5 @@ import com.iFox.hh.model.User;
 public interface UserMapper extends BaseMapper<User> {
 
 
+    User selectByUserName(@Param("username")String username);
 }
