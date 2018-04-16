@@ -3,6 +3,7 @@
 <mapper namespace="com.iFox.hh.mapper.UserMapper" >
 
     <!--通过账号来查询是否有对应的用户-->
+
     <select id="selectByUserName" resultType="com.iFox.hh.model.User">
         SELECT id,password,username,enable
         FROM user

@@ -6,7 +6,6 @@ import com.iFox.hh.service.UserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @Service("userService")
 public class UserServiceImpl extends BaseService<User> implements UserService {
@@ -16,9 +15,6 @@ public class UserServiceImpl extends BaseService<User> implements UserService {
 
 
 
-    public List<User> selectByExample(String userName) {
-        return null;
-    }
 
     @Override
     public User selectByUserName(String username) {

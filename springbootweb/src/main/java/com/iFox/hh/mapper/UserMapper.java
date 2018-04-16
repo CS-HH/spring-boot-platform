@@ -1,7 +1,7 @@
 package com.iFox.hh.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.iFox.hh.model.User;
+import com.iFox.utility.mapper.MyMapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Param;
  * @author exphuhong
  * @since 12:12 2018/4/15
  */
-public interface UserMapper extends BaseMapper<User> {
+public interface UserMapper extends MyMapper<User> {
 
 
     User selectByUserName(@Param("username")String username);

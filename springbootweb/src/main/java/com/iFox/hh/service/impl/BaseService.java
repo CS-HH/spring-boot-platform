@@ -1,9 +1,9 @@
 package com.iFox.hh.service.impl;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.iFox.hh.service.IService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
 
@@ -17,37 +17,36 @@ import java.util.List;
 public class BaseService<T> implements IService<T> {
 
     @Autowired
-    private BaseMapper<T> baseMapper;
+    protected Mapper<T> mapper;
+
+    public Mapper<T> getMapper() {
+        return mapper;
+    }
 
     @Override
     public T selectByKey(Object key) {
-        int id = (int) key;
-        return baseMapper.selectById(id);
+        return mapper.selectByPrimaryKey(key);
     }
 
-    @Override
     public int save(T entity) {
-        return baseMapper.insert(entity);
+        return mapper.insert(entity);
     }
 
-    @Override
     public int delete(Object key) {
-        int id = (int) key;
-        return baseMapper.deleteById(id);
+        return mapper.deleteByPrimaryKey(key);
     }
 
-    @Override
     public int updateAll(T entity) {
-        return baseMapper.updateAllColumnById(entity);
+        return mapper.updateByPrimaryKey(entity);
     }
 
-    @Override
     public int updateNotNull(T entity) {
-        return baseMapper.updateById(entity);
+        return mapper.updateByPrimaryKeySelective(entity);
     }
 
-    @Override
     public List<T> selectByExample(Object example) {
-        return null;
+        return mapper.selectByExample(example);
     }
+
+    //TODO 其他...
 }
