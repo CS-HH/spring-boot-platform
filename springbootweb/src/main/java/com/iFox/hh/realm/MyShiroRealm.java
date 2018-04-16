@@ -38,13 +38,14 @@ public class MyShiroRealm extends AuthorizingRealm {
         //获取用户输的账号
         String username = (String) authenticationToken.getPrincipal();
         logger.info("用户输入的账号：" + username);
+        logger.info("用户输入的密码："+authenticationToken.getCredentials());
         User user = userService.selectByUserName(username);
-        if (user == null) throw new UnknownAccountException();
+        if (user==null) throw new UnknownAccountException();
         if (user.getEnable() == 0) {
             throw new LockedAccountException();
         }
         ByteSource salt = ByteSource.Util.bytes(username);
-        SimpleHash sh = new SimpleHash("MD5", user.getPassword(), salt, 1024);
+        SimpleHash sh = new SimpleHash("MD5", user.getPassword(), salt,1024);
         String realmName = this.getName();
         SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(username, sh, salt, realmName);
         /**
